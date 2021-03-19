@@ -1,0 +1,311 @@
+*{
+    margin: 0px 10px;
+    padding: 0px;
+    
+}
+
+header, section, footer, aside, nav, figure, figcaption, hgroup {
+    display: block;
+}
+body { 
+    font-family: 'Syne Mono', monospace;
+    background-color: hsl(120, 5%, 65%);
+    background-image: url(/MEDIA/patron.jpg);
+    background-repeat: repeat;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+.h1 {
+    font-weight: bold;
+    font-size: 50px;
+}
+.h1:nth-child(odd){
+    color: hsl(120, 35%, 42%);
+}
+.h1:nth-child(even){
+    color: hsl(120, 7%, 64%);
+}
+h2 {
+    font-size: 30px;
+}
+
+#head {
+    width: 95%;
+    height: 50px;
+    padding: 10px;
+    position: fixed;
+    z-index: 1;
+}
+#navs{
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: hsl(120, 11%, 81%);
+    color: black;
+}
+.nv{
+    padding: 15px;
+}.nv:hover{
+    background-color: hsl(120, 7%, 67%);
+}
+
+.secciones {
+    width: 100%;
+    height: 600px;
+    text-align: left;
+    position: relative;
+}
+.secciones:nth-child(odd){
+    background-color: hsl(126, 18%, 89%);
+}
+.secciones:nth-child(even){
+    background-color: hsl(145, 18%, 55%);
+}
+footer{
+    width: 1185px;
+    height: 300px;
+    text-align: left;
+    position: relative;
+    left: 10px;
+    background-color: hsl(126, 18%, 89%);
+}
+.contenedor-1 {
+    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
+}
+.img {
+    width: 550px;
+    height: 500px;
+    margin-left: 40px;   
+    object-fit:contain;
+    clip-path: circle(150px);    
+}
+.contenedor-1-2 {
+    margin-top: 40px;
+    margin-left: -40px;
+    margin-right: 40px;
+    padding: 100px;
+    width: 500px;
+    height: 900px;
+    text-align: center;
+ }
+ #join-now {
+     background-color: hsl(120, 24%, 50%);
+     color: hsl(126, 18%, 89%);
+     border-radius: 10px;
+     width: 100px;
+ }
+ #join-now:hover {
+    background-color: hsl(120, 32%, 39%);
+ }
+
+
+ #choose-class {
+     height: 50px;
+     margin-bottom: 40px;
+     margin-left: 130px;
+     margin-right: 130px;
+     padding: 40px;
+     text-align: center;
+ }
+ #Seleccion-clases{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .clase{
+     width: 300px;
+     height: 400px;
+     margin: -15px;
+     padding: 15px;
+ }
+ .img-clase {
+     width: 270px;
+     height: 200px;
+     object-fit: contain;
+     clip-path: circle(90px); 
+ }
+
+ .our-stats {
+    height: 50px;
+    margin-bottom: 40px;
+    margin-left: 130px;
+    margin-right: 130px;
+    padding: 40px;
+    text-align: center;
+    
+ }
+ #contenedor-stats {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    
+ }
+ .S123 {
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    padding: 5px;
+    border:  5px solid hsl(120, 35%, 42%);
+    border-radius: 50%;
+ }
+ .S123 h2, p {
+     height: 60px;
+ }
+
+
+
+ #best-instructor{
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+ }
+.instructor-texto {
+    position: relative;
+    top: 200px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 600px;
+    
+}
+.instructor-imagen {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 600px;
+    
+}
+.img-instructor {
+    width: 100%;
+    height: 600px;
+}
+#read-more {
+    font-weight: bold;
+    width: 200px;
+    height: 40px;
+    background-color: hsl(126, 18%, 89%);
+    color: hsl(120, 24%, 50%);
+    border-radius: 5%;
+}
+#read-more:hover {
+    background-color: hsl(129, 13%, 79%);
+ }
+
+#contenedor-nExperience {
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nExperience-texto{
+    position: relative;
+    top: 200px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 600px;
+}
+.nExperience-img {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 600px;
+}
+.nExperience-imagen{
+    margin: 100px;
+    width: 350px;
+    height: 450px;
+}
+#boton-nExperience {
+    font-weight: bold;
+    width: 200px;
+    height: 40px;
+    background-color: hsl(120, 24%, 50%);
+    color: hsl(126, 18%, 89%);
+    border-radius: 5%;
+}
+#boton-nExperience:hover {
+    background-color: hsl(120, 32%, 39%);
+}
+
+
+#pricing-text {
+    height: 50px;
+     margin-bottom: 40px;
+     margin-left: 130px;
+     margin-right: 130px;
+     padding: 40px;
+     text-align: center;
+}
+#contenedor-pricing{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.pricing-class {
+    margin-top: 40px;
+    width: 260px;
+    height: 300px;
+    border-radius: 5%;
+    background-color: hsl(127, 26%, 93%);
+}
+.boton-pricing {
+    font-weight: bold;
+    width: 200px;
+    height: 40px;
+    background-color: hsl(145, 18%, 55%);
+    color: hsl(126, 18%, 89%);
+    border-radius: 3%;   
+}
+.boton-pricing:hover {
+    background-color: hsl(120, 32%, 39%);
+}
+
+
+#seccion-email {
+    position: relative;
+    top: 40%;
+    
+    text-align: center;
+    
+}
+#email {
+    display: flex;
+    justify-content:center;
+}
+.texto {
+    width: 500px;
+    height: 25px;
+    border-style: solid;
+    border-radius: 15px 15px 15px 15px;
+}
+.boton {
+    font-weight: bold;
+    position: relative;
+    right: 35px;
+    width: 200px;
+    height: 30px;
+    border-style:none;
+    border-radius: 15px 15px 15px 15px;
+}
+
+#seccion-footer {
+
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-1 {
+    position: relative;
+    top: 50px;
+    border: 1px solid blue;
+}
+#f1{
+    width: 450px;
+}
+.lista {
+    list-style: none;
+}
